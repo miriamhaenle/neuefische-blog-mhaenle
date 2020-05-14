@@ -10,114 +10,131 @@
     <title>NF-Blog</title>
   </head>
   <body class="container">
-      <header class="row py-2 shadow">
-            <div class="col">
-              <img
-                src="/img/neuefische-gmbh-logo.svg"
-                alt="neuefische GmbH School and Pool for Digital Talents"
-              
-              />
-            </div>
-          <div class="col-8 col-md-8">
-            <h1>neuefische Blog</h1>
-          </div>
-          <div class="col-2>
-            <nav>
-              <a href="#articles">Articles</a>
-              <a href="#imprint">Imprint</a>
-            </nav>
-          </div>
-      </header>
-      <main>
-        <article id="articles">
-          <div class="row">
-            <div class="col-8">
-              <h2>HTML</h2>
-              <h3>The art of sectioning</h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Dolorem ad maxime porro deleniti architecto harum tempore vel
-                provident cupiditate suscipit laudantium accusantium nobis
-                eligendi ex adipisci quam ab recusandae, numquam error quisquam
-                quas veniam? Beatae itaque numquam tempore eaque in, ex ab eum,
-                laborum quas iure rem, odio possimus quidem inventore tenetur.
-                Cumque sequi reiciendis corrupti cupiditate quisquam? Adipisci,
-                enim.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-                accusantium necessitatibus, molestias nihil harum ea aut
-                explicabo nesciunt! Atque, incidunt voluptatum provident fuga
-                doloremque velit cum rem veritatis recusandae et dolorem id eum
-                eligendi fugiat accusantium ipsum animi vel praesentium culpa
-                earum? Commodi, perferendis possimus.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-                necessitatibus ipsa doloribus, deleniti earum enim dolores. Sed,
-                amet! Fugiat, quasi.
-              </p>
-            </div>
-
-            <div class="row-4">
-              <aside class="shadow">
-                <h3>Author</h3>
-                <p>Luke Skywalker</p>
-                <img
-                  src="/img/author.jpeg"
-                  alt="Author from behind in nature"
-                  class="img-fluid rounded-circle"
-                />
-                <h4>Further articles</h4>
-                <ul>
-                  <li><a href="#">Link 1</a></li>
-                  <li><a href="#">Link 2</a></li>
-                  <li><a href="#">Link 3</a></li>
-                </ul>
-              </aside>
-            </div>
-          </div>
-
-          <section>
-            <h3>Please leave a comment</h3>
-            <form>
-              <label
-                >Name <input type="text" placeholder="Add your name" required
-              /></label>
-              <label
-                >Your comment
-                <textarea
-                  name="usercomment"
-                  cols="40"
-                  rows="10"
-                  placeholder="Write something here"
-                  required
-                  spellcheck="true"
-                ></textarea>
-              </label>
-              <button>Senden!</button>
-            </form>
-            <h4>Last user comments</h4>
-
-            <article>
-              <cite>Peter Lustig</cite>
-              <date-time>13 May 2020 19:01</date-time>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
-                explicabo, cum odio ipsam omnis quasi numquam adipisci quidem
-                similique facere fuga! Voluptatum dolor sunt facilis.
-              </p>
-              <cite>Max Mustermann</cite>
-              <date-time>11 May 2020 10:32</date-time>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                rem.
-              </p>
-            </article>
+    <header
+      class="py-2 d-flex flex-column align-items-center flex-md-row justify-content-md-between align-items-md-end border-bottom"
+    >
+      <img
+        src="/img/neuefische-gmbh-logo.svg"
+        alt="neuefische GmbH School and Pool for Digital Talents"
+      />
+      <h1>neuefische Blog</h1>
+      <nav class="mt-2">
+        <a href="#Articles">Articles</a>
+        <a href="#Imprint">Imprint</a>
+      </nav>
+    </header>
+    <main>
+      <article id="Articles">
+        <div class="row">
+          <section class="col-12 col-md-8 text-justify mt-4">
+            <h2 class="h6 text-muted">HTML</h2>
+            <h3 class="h2">The art of sectioning</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
+              ad maxime porro deleniti architecto harum tempore vel provident
+              cupiditate suscipit laudantium accusantium nobis eligendi ex
+              adipisci quam ab recusandae, numquam error quisquam quas veniam?
+              Beatae itaque numquam tempore eaque in, ex ab eum, laborum quas
+              iure rem, odio possimus quidem inventore tenetur. Cumque sequi
+              reiciendis corrupti cupiditate quisquam? Adipisci, enim.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              accusantium necessitatibus, molestias nihil harum ea aut explicabo
+              nesciunt! Atque, incidunt voluptatum provident fuga doloremque
+              velit cum rem veritatis recusandae et dolorem id eum eligendi
+              fugiat accusantium ipsum animi vel praesentium culpa earum?
+              Commodi, perferendis possimus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+              necessitatibus ipsa doloribus, deleniti earum enim dolores. Sed,
+              amet! Fugiat, quasi.
+            </p>
           </section>
-        </article>
-      </main>
-      <footer id="Imprint">&#169; neuefische GmbH</footer>
- 
+
+          <div class="col-12 col-md-4">
+            <aside class="shadow align-self-center mt-4 p-4">
+              <h3 class="h6 text-muted">Author</h3>
+              <p>Luke Skywalker</p>
+              <img
+                src="/img/author.jpeg"
+                alt="Author from behind in nature"
+                class="img-fluid rounded-circle"
+              />
+              <h4 class="mt-4">Further articles</h4>
+              <ul>
+                <li><a href="#">What the flexbox</a></li>
+                <li><a href="#">Top 10 myths about CSS</a></li>
+                <li><a href="#">Get me in the cloud!</a></li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+
+        <section class="mt-4">
+          <h3>Please leave a comment</h3>
+          <form class="row shadow p-4">
+            <div class="col-12 col-md-8">
+              <div class="form-group">
+                <label
+                  >Your name
+                  <input
+                    type="text"
+                    placeholder="Add your name"
+                    required
+                    class="form-control"
+                /></label>
+              </div>
+              <div class="form-group">
+                <label
+                  >Your message
+                  <textarea
+                    name="usercomment"
+                    cols="40"
+                    rows="10"
+                    placeholder="Write something here"
+                    required
+                    spellcheck="true"
+                    class="form-control"
+                  ></textarea>
+                </label>
+              </div>
+              <div class="form-group text-center">
+                <button class="btn btn-secondary">Senden!</button>
+              </div>
+            </div>
+          </form>
+          <section class="mt-5">
+            <h4>Last user comments</h4>
+            <ul class="list-unstyled">
+              <li>
+                <address rel="author">
+                  Peter Lustig,
+                  <time datetime="2020-05-14T21:40">14.05.2020, 21:40 Uhr</time>
+                </address>
+                <q class="text-center lead">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
+                  explicabo, cum odio ipsam omnis quasi numquam adipisci quidem
+                  similique facere fuga! Voluptatum dolor sunt facilis.
+                </q>
+              </li>
+              <li class="mt-4">
+                <address rel="author">
+                  Max Mustermann,
+                  <time datetime="2020-05-11T11:22">11.05.2020, 11:22 Uhr</time>
+                </address>
+                <q class="text-center lead">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
+                  explicabo, cum odio ipsam omnis quasi numquam adipisci quidem
+                  similique facere fuga! Voluptatum dolor sunt facilis.
+                </q>
+              </li>
+            </ul>
+          </section>
+        </section>
+      </article>
+    </main>
+    <footer id="Imprint">&#169; neuefische GmbH</footer>
   </body>
 </html>
